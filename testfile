@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+mkdir testfolder
+cd testfolder
+cp /home/kuldeepd/testpipeline /opt/
+
+
+
+
+
+#cd /home/adzadmin/gatewayserv/${BUILD_NUMBER}
+#unzip gatewayserv-*.zip
+#cp -f test-application.properties application.properties
+#cd /home/adzadmin/gatewayserv/current && ./stop.sh
+#cd /home/adzadmin/gatewayserv/
+#rm current
+#ln -fs ${BUILD_NUMBER} current
+#cd current && ./start.sh
+#[ ${BUILD_NUMBER} -gt 10 ] && cd /home/adzadmin/gatewayserv/ && rm -rf $(expr ${BUILD_NUMBER} - 10) || true
+
